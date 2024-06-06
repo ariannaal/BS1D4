@@ -78,6 +78,11 @@ $border-widths: map-merge($border-widths, $custom-border-widths);
 @import "../../bootstrap/scss/grid";
 @import "../../bootstrap/scss/tables";
 @import "../../bootstrap/scss/forms";
+
+//buttons 
+$btn-padding-x: 3rem;
+$btn-padding-y: 1rem;
+
 @import "../../bootstrap/scss/buttons";
 @import "../../bootstrap/scss/transitions";
 @import "../../bootstrap/scss/dropdown";
