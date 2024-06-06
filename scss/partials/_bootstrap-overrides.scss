@@ -40,8 +40,14 @@ $danger: #ff0073;
 $border-info: #00ffea;
 $light: #f3eeff;
 
+
+
 @import "../../bootstrap/scss/variables";
 @import "../../bootstrap/scss/variables-dark";
+
+$card-bg: $dark;
+$text-info: $info;
+$card-border-radius: 2rem;
 
 //mappe
 $custom-font-sizes: (
