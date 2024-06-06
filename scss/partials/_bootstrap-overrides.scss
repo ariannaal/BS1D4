@@ -35,10 +35,11 @@
 
 @import "../../bootstrap/scss/functions";
 // variabili & override
-$primary: purple;
-$success: #d63384;
-$border-primary: #0dcaf0;
-$bs-card-bg: #212529;
+
+$danger: #ff0073;
+$border-info: #00ffea;
+$light: #f3eeff;
+
 @import "../../bootstrap/scss/variables";
 @import "../../bootstrap/scss/variables-dark";
 
@@ -49,7 +50,8 @@ $custom-font-sizes: (
     "fs-9": 0.5rem,
     "fs-10": 0.375rem,
 );
-$font-sizes: map-merge($font-sizes, custom-font-sizes);
+
+$font-sizes: map-merge($font-sizes, $custom-font-sizes);
 
 
 $custom-border-widths: (
